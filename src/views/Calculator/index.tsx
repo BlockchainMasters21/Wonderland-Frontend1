@@ -86,7 +86,7 @@ function Calculator() {
                                 <Grid container spacing={2}>
                                     <Grid item xs={12} sm={4} md={4} lg={4}>
                                         <div className="calculator-card-apy">
-                                            <p className="calculator-card-metrics-title">TIME Price</p>
+                                            <p className="calculator-card-metrics-title">MetaSwap AVAX Price</p>
                                             <p className="calculator-card-metrics-value">{isAppLoading ? <Skeleton width="100px" /> : `$${trimeMarketPrice}`}</p>
                                         </div>
                                     </Grid>
@@ -100,7 +100,7 @@ function Calculator() {
                                     </Grid>
                                     <Grid item xs={6} sm={4} md={4} lg={4}>
                                         <div className="calculator-card-index">
-                                            <p className="calculator-card-metrics-title">Your MEMO Balance</p>
+                                            <p className="calculator-card-metrics-title">Your MSAA Balance</p>
                                             <p className="calculator-card-metrics-value">{isAppLoading ? <Skeleton width="100px" /> : <>{trimmedMemoBalance} MEMO</>}</p>
                                         </div>
                                     </Grid>
