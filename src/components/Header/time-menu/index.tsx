@@ -51,15 +51,15 @@ function TimeMenu() {
     return (
         <div className="time-menu-root" onMouseEnter={e => handleClick(e)} onMouseLeave={e => handleClick(e)}>
             <div className="time-menu-btn">
-                <p>TIME</p>
+                <p>ACME</p>
             </div>
 
             <Popper className="time-menu-popper" open={open} anchorEl={anchorEl} transition>
                 {({ TransitionProps }) => (
                     <Fade {...TransitionProps} timeout={200}>
                         <div className="tooltip">
-                            <Link className="tooltip-item" href={`https://msaa.netlify.app/swap?inputCurrency=&outputCurrency=0x38B00FDf5f57831Ca168676A71D860D1f084C84c`} target="_blank">
-                                <p>Buy on Local DEX</p>
+                            <Link className="tooltip-item" href={`https://www.traderjoexyz.com/#/trade?inputCurrency=&outputCurrency=${TIME_ADDRESS}`} target="_blank">
+                                <p>Buy on Trader Joe</p>
                             </Link>
 
                             {isEthereumAPIAvailable && (
@@ -68,10 +68,10 @@ function TimeMenu() {
                                     <p className="add-tokens-title">ADD TOKEN TO WALLET</p>
                                     <div className="divider" />
                                     <div className="tooltip-item" onClick={addTokenToWallet("TIME", TIME_ADDRESS)}>
-                                        <p>ACME Avax</p>
+                                        <p>ACME</p>
                                     </div>
                                     <div className="tooltip-item" onClick={addTokenToWallet("MEMO", MEMO_ADDRESS)}>
-                                        <p>MetaSwap Avax</p>
+                                        <p>MetaSwap</p>
                                     </div>
                                 </div>
                             )}
