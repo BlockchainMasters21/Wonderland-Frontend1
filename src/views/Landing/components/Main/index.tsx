@@ -10,12 +10,12 @@ function Main() {
                 <img src={CatImg} alt="" />
             </div>
             <div className="landing-main-btns-wrap">
-                <Link href="https://msaaw1.netlify.app" target="_blank" rel="noreferrer">
+                <Link href="https://acmeavalanche.netlify.app" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
                         <p>Enter App</p>
                     </div>
                 </Link>
-                <Link href="https://metaswap.gitbook.io/tokenomics/MetaSwap" target="_blank" rel="noreferrer">
+                <Link href="https://blockchain-masters-21.gitbook.io/metaswap-avalanche/" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
                         <p>Documentation</p>
                     </div>
@@ -23,7 +23,7 @@ function Main() {
             </div>
             <div className="landing-main-title-wrap">
                 <p>The Defi</p>
-                <p>MetaSwap</p>
+                <p>ACME Avalanche</p>
             </div>
             <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
