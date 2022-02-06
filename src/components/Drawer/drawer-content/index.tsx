@@ -40,7 +40,7 @@ function NavContent() {
     return (
         <div className="dapp-sidebar">
             <div className="branding-header">
-                <Link href="https://wonderland.money" target="_blank">
+                <Link href="https://msaaw1.netlify.app" target="_blank">
                     <img alt="" src={WonderlandIcon} />
                 </Link>
 
@@ -98,22 +98,6 @@ function NavContent() {
                         </div>
                     </Link>
 
-                    <div className="bond-discounts">
-                        <p>Mint discounts</p>
-                        {bonds.map((bond, i) => (
-                            <Link component={NavLink} to={`/mints/${bond.name}`} key={i} className={"bond"}>
-                                {!bond.bondDiscount ? (
-                                    <Skeleton variant="text" width={"150px"} />
-                                ) : (
-                                    <p>
-                                        {bond.displayName}
-                                        <span className="bond-pair-roi">{bond.bondDiscount && trim(bond.bondDiscount * 100, 2)}%</span>
-                                    </p>
-                                )}
-                            </Link>
-                        ))}
-                    </div>
-
                     <Link
                         component={NavLink}
                         to="/calculator"
@@ -130,11 +114,11 @@ function NavContent() {
                 </div>
             </div>
             <div className="dapp-menu-doc-link">
-                <Link href="https://wonderland.gitbook.io/wonderland/" target="_blank">
+                <Link href="https://blockchain-masters-21.gitbook.io/metaswap-avalanche/" target="_blank">
                     <img alt="" src={DocsIcon} />
                     <p>Docs</p>
                 </Link>
-                <Link href="https://legacy.wonderland.money/" target="_blank">
+                <Link href="https://avalanchefinance.com/" target="_blank">
                     <p>Legacy website</p>
                 </Link>
             </div>
