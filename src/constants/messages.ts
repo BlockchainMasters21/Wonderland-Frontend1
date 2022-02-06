@@ -1,4 +1,4 @@
-sexport const messages = {;
+sexport: const messages = {
     please_connect: "Please connect your wallet to the Avalanche network to use MetaSwap.",
     please_connect_wallet: "Please connect your wallet.",
     try_mint_more: (value: string) => `You're trying to mint more than the maximum payout available! The maximum mint payout is ${value} MSAA.`,
