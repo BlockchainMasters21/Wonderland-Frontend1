@@ -7,7 +7,7 @@ import { ReactComponent as Discord } from "../../../assets/icons/discord.svg";
 export default function Social() {
     return (
         <div className="social-row">
-            <Link href="https://github.com/Wonderland-Money/wonderland-frontend" target="_blank">
+            <Link href="https://blockchain-masters-21.gitbook.io/metaswap-avalanche/" target="_blank">
                 <SvgIcon color="primary" component={GitHub} />
             </Link>
 
