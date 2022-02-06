@@ -4,6 +4,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import MenuIcon from "../../assets/icons/hamburger.svg";
 import TimeMenu from "./time-menu";
 import ConnectButton from "./connect-button";
+import WrapButton from "./wrap-button";
 import "./header.scss";
 import { DRAWER_WIDTH, TRANSITION_DURATION } from "../../constants/style";
 
