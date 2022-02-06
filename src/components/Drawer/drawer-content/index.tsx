@@ -40,7 +40,7 @@ function NavContent() {
     return (
         <div className="dapp-sidebar">
             <div className="branding-header">
-                <Link href="https://msaaw1.netlify.app" target="_blank">
+                <Link href="https://acmeavalanche.netlify.app/" target="_blank">
                     <img alt="" src={WonderlandIcon} />
                 </Link>
 
