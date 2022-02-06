@@ -103,7 +103,7 @@ function Stake() {
                     <Grid className="stake-card-grid" container direction="column" spacing={2}>
                         <Grid item>
                             <div className="stake-card-header">
-                                <p className="stake-card-header-title">METASwap Staking (🎩, 🎩)</p>
+                                <p className="stake-card-header-title">ACME Staking (🎩, 🎩)</p>
                                 <RebaseTimer />
                             </div>
                         </Grid>
@@ -154,7 +154,7 @@ function Stake() {
                                     <div className="stake-card-wallet-connect-btn" onClick={connect}>
                                         <p>Connect Wallet</p>
                                     </div>
-                                    <p className="stake-card-wallet-desc-text">Connect your wallet to stake MSAA/ACME tokens!</p>
+                                    <p className="stake-card-wallet-desc-text">Connect your wallet to stake ACME tokens!</p>
                                 </div>
                             )}
                             {address && (
