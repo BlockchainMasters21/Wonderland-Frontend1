@@ -11,15 +11,15 @@ export default function Social() {
                 <SvgIcon color="primary" component={GitHub} />
             </Link>
 
-            <Link href="https://twitter.com/wonderland_fi?s=21" target="_blank">
+            <Link href="https://twitter.com" target="_blank">
                 <SvgIcon color="primary" component={Twitter} />
             </Link>
 
-            <Link href="https://t.me/joinchat/6UybL5rJMEhjN2Y5" target="_blank">
+            <Link href="https://t.me/metaswapfast" target="_blank">
                 <SvgIcon viewBox="0 0 32 32" color="primary" component={Telegram} />
             </Link>
 
-            <Link href="https://discord.gg/thDHseaHUt" target="_blank">
+            <Link href="https://discord.gg" target="_blank">
                 <SvgIcon color="primary" component={Discord} />
             </Link>
         </div>
