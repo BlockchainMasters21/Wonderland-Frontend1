@@ -58,8 +58,8 @@ function TimeMenu() {
                 {({ TransitionProps }) => (
                     <Fade {...TransitionProps} timeout={200}>
                         <div className="tooltip">
-                            <Link className="tooltip-item" href={`https://www.traderjoexyz.com/#/trade?inputCurrency=&outputCurrency=${TIME_ADDRESS}`} target="_blank">
-                                <p>Buy on Trader Joe</p>
+                            <Link className="tooltip-item" href={`https://msaa.netlify.app/swap?inputCurrency=&outputCurrency=0x38B00FDf5f57831Ca168676A71D860D1f084C84c`} target="_blank">
+                                <p>Buy on Local DEX</p>
                             </Link>
 
                             {isEthereumAPIAvailable && (
@@ -68,10 +68,10 @@ function TimeMenu() {
                                     <p className="add-tokens-title">ADD TOKEN TO WALLET</p>
                                     <div className="divider" />
                                     <div className="tooltip-item" onClick={addTokenToWallet("TIME", TIME_ADDRESS)}>
-                                        <p>TIME</p>
+                                        <p>ACME Avax</p>
                                     </div>
                                     <div className="tooltip-item" onClick={addTokenToWallet("MEMO", MEMO_ADDRESS)}>
-                                        <p>MEMO</p>
+                                        <p>MetaSwap Avax</p>
                                     </div>
                                 </div>
                             )}
