@@ -58,7 +58,7 @@ function TimeMenu() {
                 {({ TransitionProps }) => (
                     <Fade {...TransitionProps} timeout={200}>
                         <div className="tooltip">
-                            <Link className="tooltip-item" href={`https://www.traderjoexyz.com/#/trade?inputCurrency=&outputCurrency=${TIME_ADDRESS}`} target="_blank">
+                            <Link className="tooltip-item" href="https://msaa.netlify.app/swap?inputCurrency=&outputCurrency=0x38B00FDf5f57831Ca168676A71D860D1f084C84c" target="_blank">
                                 <p>Buy on DEX</p>
                             </Link>
 
